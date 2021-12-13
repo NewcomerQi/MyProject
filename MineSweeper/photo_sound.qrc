@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>扫雷项目图片及声音资源/images/0.png</file>
+        <file>扫雷项目图片及声音资源/images/1.png</file>
+        <file>扫雷项目图片及声音资源/images/2.png</file>
+        <file>扫雷项目图片及声音资源/images/3.png</file>
+        <file>扫雷项目图片及声音资源/images/4.png</file>
+        <file>扫雷项目图片及声音资源/images/5.png</file>
+        <file>扫雷项目图片及声音资源/images/6.png</file>
+        <file>扫雷项目图片及声音资源/images/7.png</file>
+        <file>扫雷项目图片及声音资源/images/8.png</file>
+        <file>扫雷项目图片及声音资源/images/mine1.png</file>
+        <file>扫雷项目图片及声音资源/images/mine1_0.png</file>
+        <file>扫雷项目图片及声音资源/images/cenWin0.png</file>
+        <file>扫雷项目图片及声音资源/sound/bong.wav</file>
+        <file>扫雷项目图片及声音资源/sound/time.wav</file>
+        <file>扫雷项目图片及声音资源/sound/win.wav</file>
+        <file>扫雷项目图片及声音资源/images/flag1.png</file>
+        <file>扫雷项目图片及声音资源/images/minetip1.png</file>
+        <file>扫雷项目图片及声音资源/images/cover1.png</file>
+        <file>扫雷项目图片及声音资源/images/interrogation1_0.png</file>
+    </qresource>
+</RCC>

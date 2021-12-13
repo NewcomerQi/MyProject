@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	chatting/tcp.h	/^typedef struct Accept$/;"	s
+Accept	chatting/tcp_client.c	/^typedef struct Accept$/;"	s	file:
+Accept_t	chatting/tcp.h	/^} Accept_t;$/;"	t	typeref:struct:Accept
+Accept_t	chatting/tcp_client.c	/^} Accept_t;$/;"	t	typeref:struct:Accept	file:
+BASE64_H	base64.h	2;"	d
+BASE64_PAD64	base64.h	10;"	d
+COMMON_H	common.h	2;"	d
+DEVICECONTROL_H	devicecontrol.h	2;"	d
+IP	common.h	8;"	d
+Ip_Port	chatting/tcp_client.c	/^} Ip_Port;$/;"	t	typeref:struct:ip_port	file:
+MAILRECV_H	mailrecv.h	2;"	d
+MAX_ATTA	common.h	5;"	d
+MAX_MAIL	common.h	4;"	d
+MYPORT	common.h	9;"	d
+NET_H	net.h	2;"	d
+PARSEMAIL_H	parsemail.h	2;"	d
+PORT	chatting/tcp.h	21;"	d
+PORT	common.h	7;"	d
+SMTP_IP	chatting/tcp.h	20;"	d
+Stu_t	chatting/tcp.h	/^}Stu_t;$/;"	t	typeref:struct:student
+SubjectControl	devicecontrol.c	/^int SubjectControl(const mail_t *pmail, ctrl_t * subject)$/;"	f
+USERFILE	common.h	6;"	d
+_TCP_H_	chatting/tcp.h	2;"	d
+age	chatting/tcp.h	/^	int age;			\/\/年龄$/;"	m	struct:student
+amend_password	chatting/tcp_student.c	/^int amend_password(sqlite3 *ppDb, const char *username, const char * password)$/;"	f
+atta	common.h	/^	char atta[MAX_ATTA];	\/\/ 附件内容$/;"	m	struct:mail
+base64_alphabet	base64.c	/^unsigned int base64_alphabet[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I',$/;"	v
+base64_decode	base64.c	/^char* base64_decode(const char *bdata) $/;"	f
+base64_encode	base64.c	/^char* base64_encode(const char *data) $/;"	f
+base64_suffix_map	base64.c	/^unsigned int base64_suffix_map[256] = {$/;"	v
+bulb	common.h	/^	int bulb;			\/\/ 灯的号数(1~8)$/;"	m	struct:subject_ctrl
+bulb_ctrl	common.h	/^	int bulb_ctrl;		\/\/ 控制信号（０关灯，１开灯）$/;"	m	struct:subject_ctrl
+bulb_ctrl	devicecontrol.c	/^int bulb_ctrl(int bulb, int bulb_ctrl)$/;"	f
+chating	chatting/tcp_func.c	/^void chating(int sfd_new)$/;"	f
+cmove_bits	base64.c	/^static int cmove_bits(unsigned char src, unsigned lnum, unsigned rnum) $/;"	f	file:
+command	common.h	/^	char command[16];	\/\/ 命令字 8LED 7SHU MOTO CHANGETABLE$/;"	m	struct:subject_ctrl
+ctrl_t	common.h	/^}ctrl_t;$/;"	t	typeref:struct:subject_ctrl
+emitCommand	devicecontrol.c	/^int emitCommand(ctrl_t * subject)$/;"	f
+emitUpdate	devicecontrol.c	/^int emitUpdate(const mail_t *pmail,ctrl_t * subject)$/;"	f
+file_send	chatting/tcp_client.c	/^void file_send(int sfd)$/;"	f
+file_send	chatting/tcp_func.c	/^void file_send(int sfd_new)$/;"	f
+filename	common.h	/^	char filename[80];	\/\/　文件名$/;"	m	struct:mail
+ftp_accept	chatting/tcp_client.c	/^int ftp_accept(int sfd, const char *ip, short port, struct sockaddr_in *cid_addr)$/;"	f
+ftp_accept	chatting/tcp_func.c	/^int ftp_accept(int sfd, const char *ip, short port, struct sockaddr_in *cid_addr)$/;"	f
+ftp_accept	net.c	/^int ftp_accept(int sfd, const char *ip, short port)$/;"	f
+ftp_init	chatting/tcp_client.c	/^int ftp_init(const char *ip, short port)$/;"	f
+ftp_init	chatting/tcp_func.c	/^int ftp_init(const char *ip, short port)$/;"	f
+ftp_init	net.c	/^int ftp_init(const char *ip, short port)$/;"	f
+getCurrTime	devicecontrol.c	/^char *getCurrTime(void)$/;"	f
+getFromAddress	mailrecv.c	/^int getFromAddress(int cfd, mail_t * pmail)	\/\/ 接收地址$/;"	f
+getToAddress	mailrecv.c	/^int getToAddress(int cfd, mail_t * pmail)$/;"	f
+getbody	mailrecv.c	/^int getbody(int cfd, mail_t * pmail)$/;"	f
+getpass_pop	mailrecv.c	/^int getpass_pop(int cfd, table_t * p)$/;"	f
+getpassword	mailrecv.c	/^int getpassword(int cfd, table_t * p)$/;"	f
+getslave	mailrecv.c	/^int getslave(int cfd, mail_t * pmail, char * str)$/;"	f
+getuser_pop	mailrecv.c	/^int getuser_pop(int cfd, table_t * p)$/;"	f
+getusername	mailrecv.c	/^int getusername(int cfd, table_t * p)$/;"	f
+handleconnection	net.c	/^int handleconnection(int cfd, mail_t * pmail)$/;"	f
+id	chatting/tcp.h	/^	int id;			\/\/ 学号$/;"	m	struct:student
+ip	chatting/tcp_client.c	/^	char ip[50];$/;"	m	struct:ip_port	file:
+ip_port	chatting/tcp_client.c	/^typedef struct ip_port$/;"	s	file:
+len	common.h	/^	int len;	\/\/ 附件长度$/;"	m	struct:mail
+mail	common.h	/^typedef struct mail$/;"	s
+mail_t	common.h	/^}mail_t;$/;"	t	typeref:struct:mail
+main	central.c	/^int main()$/;"	f
+main	chatting/server.c	/^int main(int argc, char *argv[])$/;"	f
+main	chatting/tcp_client.c	/^int main(int argc, char *argv[])$/;"	f
+menu	chatting/tcp_func.c	/^void menu(char *username, sqlite3 * ppDb, int sfd_new)$/;"	f
+my_addr	chatting/tcp.h	/^	struct sockaddr_in my_addr;$/;"	m	struct:Accept	typeref:struct:Accept::sockaddr_in
+my_addr	chatting/tcp_client.c	/^	struct sockaddr_in my_addr;$/;"	m	struct:Accept	typeref:struct:Accept::sockaddr_in	file:
+my_login	chatting/tcp_client.c	/^void my_login(int sfd)$/;"	f
+my_register	chatting/tcp_client.c	/^void my_register(int sfd)$/;"	f
+my_register	chatting/tcp_func.c	/^void my_register(int sfd_new)$/;"	f
+name	chatting/tcp.h	/^	char name[20];		\/\/姓名$/;"	m	struct:student
+parseMail	parsemail.c	/^int parseMail(struct mail * pmail, struct subject_ctrl * subject)$/;"	f
+password	chatting/tcp.h	/^	char password[20];	\/\/密码$/;"	m	struct:student
+password	common.h	/^	char password[20];	\/\/ 用户密码$/;"	m	struct:table
+pop3connection	net.c	/^int pop3connection(int cfd, ctrl_t * subject, mail_t *pmail)$/;"	f
+port	chatting/tcp_client.c	/^	short port;$/;"	m	struct:ip_port	file:
+print_quit	chatting/tcp_func.c	/^void print_quit(struct sockaddr_in client_addr)$/;"	f
+raw	common.h	/^	char raw [MAX_MAIL];	\/\/ 邮件内容$/;"	m	struct:mail
+recv	common.h	/^	char recv[80];	\/\/ 接收者地址$/;"	m	struct:mail
+result	common.h	/^	int result;			\/\/ 0表示控制成功，-1表示控制失败$/;"	m	struct:subject_ctrl
+retrieve_password	chatting/tcp_client.c	/^void retrieve_password(int sfd)$/;"	f
+retrieve_password	chatting/tcp_func.c	/^void retrieve_password(int sfd_new)$/;"	f
+revp	common.h	/^	int revp;			\/\/ 电机转数(0, 1000)$/;"	m	struct:subject_ctrl
+s_gets	chatting/tcp_client.c	/^char *s_gets(char *st, int n)$/;"	f
+s_gets	chatting/tcp_student.c	/^char *s_gets(char *st, int n)$/;"	f
+send	common.h	/^	char send[80];	\/\/发送者地址$/;"	m	struct:mail
+sendemail	devicecontrol.c	/^int sendemail(int cfd, mail_t * pmail, ctrl_t * ctr)$/;"	f
+sex	chatting/tcp.h	/^	char sex[10];		\/\/性别$/;"	m	struct:student
+sfd_new	chatting/tcp.h	/^	int sfd_new;$/;"	m	struct:Accept
+sfd_new	chatting/tcp_client.c	/^	int sfd_new;$/;"	m	struct:Accept	file:
+signal	common.h	/^	int signal;			\/\/ 七段数码官显示信号(0~99)$/;"	m	struct:subject_ctrl
+signal_ctrl	devicecontrol.c	/^int signal_ctrl(int signal)$/;"	f
+sqlite3_database_filename	chatting/tcp.h	18;"	d
+sqlite3_database_filename	parsemail.h	12;"	d
+sqlite3_delete	chatting/tcp_student.c	/^int sqlite3_delete(char * username, sqlite3 * ppDb, int sfd_new)$/;"	f
+sqlite3_find	chatting/tcp_student.c	/^Stu_t * sqlite3_find(const int username, const char *password)$/;"	f
+sqlite3_find	parsemail.c	/^table_t * sqlite3_find(const char *username)$/;"	f
+sqlite3_print	chatting/tcp_student.c	/^int sqlite3_print(sqlite3 * ppDb, const char * str)$/;"	f
+sqlite3_retrieve	chatting/tcp_student.c	/^int sqlite3_retrieve(sqlite3 *ppDb, const char *username)$/;"	f
+sqlite3_table_filename	chatting/tcp.h	19;"	d
+sqlite3_table_filename	parsemail.h	13;"	d
+sqlite3_update	chatting/tcp_student.c	/^void sqlite3_update(char * username, sqlite3 * ppDb, int sfd_new)$/;"	f
+start_client	chatting/tcp_client.c	/^void *start_client(void *arg)$/;"	f
+start_rountine	chatting/tcp_client.c	/^void *start_rountine(void *arg)$/;"	f
+start_rountine	chatting/tcp_func.c	/^void *start_rountine(void *arg)$/;"	f
+student	chatting/tcp.h	/^typedef struct student$/;"	s
+subject	common.h	/^	char subject[80];	\/\/ 主题字$/;"	m	struct:mail
+subject_ctrl	common.h	/^typedef struct subject_ctrl$/;"	s
+table	common.h	/^typedef struct table$/;"	s
+table_t	common.h	/^}table_t;$/;"	t	typeref:struct:table
+tcp_connect	chatting/tcp_client.c	/^int tcp_connect(char *ip, short port)$/;"	f
+tcp_connect	chatting/tcp_func.c	/^int tcp_connect(char *ip, short port)$/;"	f
+tcp_connect	net.c	/^int tcp_connect(char *ip, short port)$/;"	f
+username	common.h	/^	char username[20];	\/\/ 邮件用户名$/;"	m	struct:table
+verpassword	parsemail.c	/^int verpassword(const char * password, struct table * usertable)$/;"	f
+verusername	parsemail.c	/^int verusername(const char * username, struct table * usertable)$/;"	f

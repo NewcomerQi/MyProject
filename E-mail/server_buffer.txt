@@ -1,0 +1,10 @@
+要把192.168.1.113改为自己linux系统的IP，并且把状态字看清，看清，再看清
+
+char * response220="220 192.168.1.113 ok\r\n";
+char * response250_HELO="250-192.168.1.113\r\n250-PIPELINING\r\n250-SIZE 52428800\r\n250-AUTH LOGIN PLAIN\r\n250-AUTH=LOGIN\r\n250-MAILCOMPRESS\r\n250 BITMIME\r\n";
+char * response334_user="334 VXNlcm5hbWU6\r\n";
+char * response334_pass="334 UGFzc3dvcmQ6\r\n";
+char * response235="235 Authenticatin successful\r\n";
+char * response250_ok="250 OK\r\n";
+char * response_354="354 End data with <CR><LF>.<CR><LF>\r\n";
+char * response_221="221 Bye\r\n";
